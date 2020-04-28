@@ -137,8 +137,8 @@ def iphex = ip.tokenize( '.' ).collect { String.format( '%02x', it.toInteger() )
 }.join().toUpperCase()
 def porthex = String.format('%04x', port.toInteger())
 def sensorAddress = iphex + ":" + porthex
-if (txtEnable) log.info "Using IP " + ip + ", PORT 80 and HEX ADDRESS " + sensorAddress
-+ " for device: ${device.id}"
+if (txtEnable) log.info "Using IP " + ip + ", PORT 80 and HEX ADDRESS " + sensorAddress + 
+" for device: ${device.id}"
 return sensorAddress
 }
 private dbCleanUp() {
