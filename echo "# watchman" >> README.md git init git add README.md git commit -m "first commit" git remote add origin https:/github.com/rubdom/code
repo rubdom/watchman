@@ -7,8 +7,8 @@ author: "rubdom",
 importUrl: ""
 )
 {
-capability "TemperatureMeasurement"
-capability "RelativeHumidityMeasurement"
+capability "Temperature Measurement"
+capability "Relative Humidity Measurement"
 capability "Sensor"
 capability "Refresh" // refresh command
 capability "Polling"
