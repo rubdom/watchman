@@ -1,3 +1,20 @@
+/**
+ *
+ *  pp-Code H&T Sensor 
+ *
+ *	Created from  driver Raspberry Pi Stats
+ *   - Original Copyright Janos Elohazi
+ *   - Original Copyright Scott Grayban (sgrayban)
+ *   - Originally Ported to Hubitat by Scott Grayban with help from ogiewon and royski
+ *
+ *
+ *  *************************************************************************
+ *  Licensed under the GNU v3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
+ *
+ *  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed
+ *  on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License
+ *  for the specific language governing permissions and limitations under the License.
+ *  *************************************************************************/
 import groovy.json.*
 metadata {
 definition (
